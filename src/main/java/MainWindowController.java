@@ -42,7 +42,7 @@ public class MainWindowController implements Initializable {
         String s =text_in.getText();
         int row =isNumber(text_row.getText())? Integer.parseInt(text_row.getText()) :3;
         int col =isNumber(text_col.getText())? Integer.parseInt(text_col.getText()) :35;
-        String output =Hamsaradkun.salad(s,row,col);
+        String output = Hamsaradkun.Companion.salad(s,row,col);
         text_out.setText(output);
 
         //クリップボードにもコピー
