@@ -9,7 +9,7 @@
         <Button fx:id="button" layoutX="294.0" layoutY="165.0" onAction="#handleButtonAction" prefHeight="26.0" prefWidth="217.0" text="生成" />
         <TextArea fx:id="text_in" layoutX="8.0" layoutY="45.0" prefHeight="110.0" prefWidth="506.0" promptText="input" />
         <TextArea fx:id="text_out" layoutX="8.0" layoutY="200.0" prefHeight="95.0" prefWidth="506.0" promptText="output" />
-        <TextField fx:id="text_row" layoutX="79.0" layoutY="165.0" prefHeight="26.0" prefWidth="59.0" text="3" />
+        <TextField fx:id="text_row" layoutX="79.0" layoutY="165.0" prefHeight="26.0" prefWidth="59.0" text="1" />
         <TextField fx:id="text_col" layoutX="221.0" layoutY="165.0" prefHeight="26.0" prefWidth="66.0" text="35" />
         <Label layoutX="156.0" layoutY="170.0" text="目安列数：" />
         <Label layoutX="14.0" layoutY="170.0" text="目安行数：" />
